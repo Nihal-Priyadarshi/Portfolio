@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: linear-gradient(#6d2ee2, #e22ec4, #402ee2, #2ebee2, #2ee24c, #a3e22e, #e2d62e, #e2762e, #cd2ee2, #e2492e);
+}
+.header:hover{
+    background: linear-gradient(#6d2ee2, #a02ee2, #e22ec4);
+}
+a{
+    text-decoration: none;
+}
+.header-one:hover, .header-two:hover, .header-three:hover, .header-four:hover, .header-five:hover{
+    color: #f3971b;
+}
+.home:hover{
+    background: linear-gradient(#6d2ee2, #e22ec4);
+}
+.home-one:hover{
+    color: #f3971b;
+}
+.home-two:hover{
+    color: #292929;
+}
+.about:hover{
+    background: linear-gradient(#e22ec4, #402ee2, #2ebee2, #2ee24c, #a3e22e);
+}
+.about-one:hover{
+    color: white;
+}
+.about-two:hover{
+    border-radius: 20%;
+    filter: brightness(120%);
+    filter: contrast(130%);
+}
+.about-three:hover{
+    color: lightcoral;
+}
+.about-four{
+    text-align: justify;
+}
+.about-four:hover{
+    color: khaki;
+}
+.achievement:hover{
+    background: linear-gradient(#a3e22e, #e2d62e, #e2762e, #cd2ee2);
+}
+.achievement-one:hover{
+    color: white;
+}
+.achievement-two{
+    text-align: justify;
+}
+.achievement-two:hover, .achievement-two a:hover{
+    color: blue;
+}
+.achievement-three:hover{
+    filter: brightness(120%);
+    filter: contrast(130%);
+}
+.contact:hover{
+    background: linear-gradient(#cd2ee2, #e2492e);
+}
+.contact-one:hover{
+    color: white;
+}
+.footer:hover{
+    background: linear-gradient(#cd2ee2, #e2492e);
+}
+.footer-one:hover{
+    color: teal;
+}
+.footer-two:hover{
+    color: #353535;
+}
+.header-one:hover, .header-two:hover, .header-three:hover, .header-four:hover, .header-five:hover, .home-one:hover, .home-two:hover, .about-one:hover, .about-two:hover, .about-three:hover, .about-four:hover, .achievement-one:hover, .achievement-two:hover, .achievement-two a:hover, .achievement-three:hover, .contact-one:hover, .footer-one:hover, .footer-two:hover{
+    transition-duration: 0.5s;
+
+}
