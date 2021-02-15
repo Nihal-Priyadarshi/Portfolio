@@ -10,7 +10,7 @@ body{
     background: linear-gradient(#6d2ee2, #a02ee2, #e22ec4);
 }
 .header-one:hover{
-    font-size: 2em;
+    font-size: 1.6em;
     color: #f3971b;
     text-shadow: 1px 1px  4px red;
 }
