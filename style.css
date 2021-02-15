@@ -11,17 +11,16 @@ body{
 }
 .header-one:hover{
     font-size: 2em;
-    text-shadow: 4px;
+    color: #f3971b;
+    text-shadow: 1px 1px  4px #f3971b;
 }
 .header-two:hover, .header-three:hover, .header-four:hover, .header-five:hover{
     font-size: 20px;
-    text-shadow: 3px;
+    color: #f3971b;
+    text-shadow: 1px 1px 3px #f3971b;
 }
 a{
     text-decoration: none;
-}
-.header-one:hover, .header-two:hover, .header-three:hover, .header-four:hover, .header-five:hover{
-    color: #f3971b;
 }
 .home:hover{
     background: linear-gradient(#6d2ee2, #e22ec4);
