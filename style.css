@@ -12,12 +12,12 @@ body{
 .header-one:hover{
     font-size: 2em;
     color: #f3971b;
-    text-shadow: 1px 1px  4px #f3971b;
+    text-shadow: 1px 1px  4px red;
 }
 .header-two:hover, .header-three:hover, .header-four:hover, .header-five:hover{
     font-size: 20px;
     color: #f3971b;
-    text-shadow: 1px 1px 3px #f3971b;
+    text-shadow: 1px 1px 3px red;
 }
 a{
     text-decoration: none;
