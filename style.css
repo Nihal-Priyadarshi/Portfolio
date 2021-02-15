@@ -9,6 +9,14 @@ body{
 .header:hover{
     background: linear-gradient(#6d2ee2, #a02ee2, #e22ec4);
 }
+.header-one:hover{
+    font-size: 2em;
+    text-shadow: 4px;
+}
+.header-two:hover, .header-three:hover, .header-four:hover, .header-five:hover{
+    font-size: 20px;
+    text-shadow: 3px;
+}
 a{
     text-decoration: none;
 }
